@@ -4,9 +4,9 @@ function Home(){
     return(
         <div className="app">
             <Header/>
-        
-         <h1>titulo natura</h1>
-         <img className='imagem' src='./src/assets/batomazulnatura.png'></img>
+        <header>
+         <img className='logo-imagem' src='./src/assets/design-do-logotipo.png' alt='imagem'></img>
+         </header>
         
         </div>
     )

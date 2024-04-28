@@ -4,9 +4,9 @@ function About(){
     return(
         <div className="app">
             <Header/>
-         
-           
-            <img className='imagem' src='./src/assets/batomMarron.png'></img>
+          <div className='imagem-logo'>
+            <img src='./src/assets/batomazulnatura.png'></img>
+          </div>
         </div>
     )
 }

@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+header{
+  display: flex;
+  justify-content: center;
+}
+
 ul li{
   display: inline-block;
   padding: 10px;
@@ -13,6 +18,53 @@ ul li{
 
 a{
   text-decoration: none;
-  background-color: crimson;
+  background-color:blueviolet;
+  padding: 10px;
+  color: deeppink;
+  border-radius: 40px;
+}
+
+ul li a:hover{
+  color: chartreuse;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.produtos-container{
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.imagem{
+  max-width: 100%;
+  height: auto;
+}
+
+.avaliacoes{
+  width: 100px;
+}
+
+p{
+  font-size: 20px;
+  color: black;
+}
+
+button{
+  border-style: none;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 40px;
+  background-color: blueviolet;
   color: #ffffff;
+}
+
+button:hover{
+  color: chartreuse;
 }
