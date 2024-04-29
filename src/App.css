@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: deeppink;
+}
+
 header{
   display: flex;
   justify-content: center;
@@ -67,4 +71,60 @@ button{
 
 button:hover{
   color: chartreuse;
+}
+
+.container-logo{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+ 
+}
+
+.capa{
+  width: 300px;
+}
+
+.container-msg {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  
+}
+.container img {
+  max-width: 200px; /* Defina o tamanho máximo da imagem conforme necessário */
+  margin-right: 20px; /* Adicione margem à direita para separar a imagem do texto */
+
+}
+
+.logo2{
+  width: 500px;
+  
+}
+
+@media(max-width:500px){
+  .container-msg{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .container-logo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+@media(max-width:765px){
+  .container-msg{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .container-logo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 }
